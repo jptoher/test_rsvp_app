@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  type: 1
+  date: 2014-12-25
+  host: MyString
+  rsvp_open_date: 2014-12-25
+  rsvp_close_date: 2014-12-25
+  closed: false
+  venue: MyString
+  url: MyString
+
+two:
+  name: MyString
+  type: 1
+  date: 2014-12-25
+  host: MyString
+  rsvp_open_date: 2014-12-25
+  rsvp_close_date: 2014-12-25
+  closed: false
+  venue: MyString
+  url: MyString

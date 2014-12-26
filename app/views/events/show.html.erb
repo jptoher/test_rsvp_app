@@ -1,0 +1,49 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @event.name %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @event.type %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @event.date %>
+</p>
+
+<p>
+  <strong>Host:</strong>
+  <%= @event.host %>
+</p>
+
+<p>
+  <strong>Rsvp open date:</strong>
+  <%= @event.rsvp_open_date %>
+</p>
+
+<p>
+  <strong>Rsvp close date:</strong>
+  <%= @event.rsvp_close_date %>
+</p>
+
+<p>
+  <strong>Closed:</strong>
+  <%= @event.closed %>
+</p>
+
+<p>
+  <strong>Venue:</strong>
+  <%= @event.venue %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @event.url %>
+</p>
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>

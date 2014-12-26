@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Subscriber:</strong>
+  <%= @rsvp.subscriber_id %>
+</p>
+
+<p>
+  <strong>Form:</strong>
+  <%= @rsvp.form_id %>
+</p>
+
+<p>
+  <strong>Success:</strong>
+  <%= @rsvp.success %>
+</p>
+
+<p>
+  <strong>Attempts:</strong>
+  <%= @rsvp.attempts %>
+</p>
+
+<p>
+  <strong>Last attempt:</strong>
+  <%= @rsvp.last_attempt %>
+</p>
+
+<%= link_to 'Edit', edit_rsvp_path(@rsvp) %> |
+<%= link_to 'Back', rsvps_path %>

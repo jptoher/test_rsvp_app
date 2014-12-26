@@ -1,0 +1,74 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>First name:</strong>
+  <%= @subscriber.first_name %>
+</p>
+
+<p>
+  <strong>Last name:</strong>
+  <%= @subscriber.last_name %>
+</p>
+
+<p>
+  <strong>Address1:</strong>
+  <%= @subscriber.address1 %>
+</p>
+
+<p>
+  <strong>Address2:</strong>
+  <%= @subscriber.address2 %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @subscriber.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @subscriber.state %>
+</p>
+
+<p>
+  <strong>Zip:</strong>
+  <%= @subscriber.zip %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @subscriber.email %>
+</p>
+
+<p>
+  <strong>Fake email:</strong>
+  <%= @subscriber.fake_email %>
+</p>
+
+<p>
+  <strong>Affiliation:</strong>
+  <%= @subscriber.affiliation %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @subscriber.phone %>
+</p>
+
+<p>
+  <strong>Coupon:</strong>
+  <%= @subscriber.coupon_id %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @subscriber.type_id %>
+</p>
+
+<p>
+  <strong>Date joined:</strong>
+  <%= @subscriber.date_joined %>
+</p>
+
+<%= link_to 'Edit', edit_subscriber_path(@subscriber) %> |
+<%= link_to 'Back', subscribers_path %>

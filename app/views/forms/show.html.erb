@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Event:</strong>
+  <%= @form.event_id %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @form.type %>
+</p>
+
+<p>
+  <strong>Runs:</strong>
+  <%= @form.runs %>
+</p>
+
+<p>
+  <strong>Last run:</strong>
+  <%= @form.last_run %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @form.url %>
+</p>
+
+<%= link_to 'Edit', edit_form_path(@form) %> |
+<%= link_to 'Back', forms_path %>
